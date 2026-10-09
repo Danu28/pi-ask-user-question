@@ -6,22 +6,28 @@ Modes: free-text (`ctx.ui.editor`), single-select list, multi-select checklist. 
 
 ## Install
 
-From this repo checkout:
+Install directly from GitHub:
 
 ```bash
-pi install ./pi-ask-user-question
+pi install git:github.com/Danu28/pi-ask-user-question
+```
+
+To install from a local checkout instead:
+
+```bash
+pi install .
 ```
 
 Project-local only:
 
 ```bash
-pi install -l ./pi-ask-user-question
+pi install -l .
 ```
 
 Try once without installing:
 
 ```bash
-pi -e ./pi-ask-user-question
+pi -e .
 ```
 
 Manage:
@@ -29,7 +35,7 @@ Manage:
 ```bash
 pi list
 pi update
-pi remove ./pi-ask-user-question
+pi remove git:github.com/Danu28/pi-ask-user-question
 ```
 
 ## Layout

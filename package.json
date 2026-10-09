@@ -6,6 +6,10 @@
     "pi-package"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Danu28/pi-ask-user-question.git"
+  },
   "type": "module",
   "pi": {
     "extensions": [
